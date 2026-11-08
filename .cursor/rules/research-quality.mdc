@@ -1,0 +1,17 @@
+---
+description: Standards for researching external tools, vendors, technologies, pricing and regulations
+alwaysApply: false
+---
+
+# Research Quality
+
+Apply when researching or recommending tools, platforms, APIs, vendors, pricing, or legal/compliance topics.
+
+- **Verify, don't recall.** Tools, pricing and policies change fast. Use web search/fetch for current facts and note the date checked.
+- **Cite sources** with links. Separate facts from opinion and from your own inference.
+- **Compare real alternatives**, including a cheap/simple option and a "no new tool" option.
+- **Capture the costs that matter to a solo agency**: setup effort, monthly cost per client, ongoing maintenance, vendor lock-in, who handles support when it breaks.
+- **Flag risk early**: privacy and data handling of customer information, messaging/spam and consent rules, platform terms of service (e.g. rules on automated messaging), and payment compliance. Say when something needs professional or legal advice and don't present regulatory guesses as fact.
+- **Jurisdiction**: assume clients are local small businesses; confirm the country/region before stating legal specifics.
+- **Mark confidence** (high/medium/low) on claims that drive a recommendation.
+- Throwaway experiments go in `research/<topic>/` with a short README saying what was tested and the outcome.

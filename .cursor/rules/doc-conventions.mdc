@@ -1,0 +1,46 @@
+---
+description: Conventions for writing and filing markdown documents in this repo
+globs: **/*.md
+alwaysApply: false
+---
+
+# Document Conventions
+
+## Where things go
+
+| Folder | Content |
+|--------|---------|
+| `docs/context/` | Stable background: agency profile, process map, evaluation framework |
+| `ideas/` | Ideas at any stage, one file each |
+| `research/` | Findings on tools, vendors, technologies, markets, regulations |
+| `processes/` | Deep dives on a business process, written for an archetype |
+| `templates/` | Starting points for the above. Copy, don't edit in place |
+
+## File naming
+
+- Lowercase kebab-case: `appointment-no-show-reduction.md`.
+- No dates in filenames. Put dates in the frontmatter.
+- One topic per file. Split when a file covers two distinct things.
+
+## Frontmatter
+
+Ideas, research and process docs start with:
+
+```yaml
+---
+title: Human readable title
+status: seed | exploring | validated | parked | rejected
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+process: acquisition | booking | delivery | comms-support | payments | retention | reputation | operations | admin-finance | cross-cutting
+---
+```
+
+Update `status` and `updated` whenever the thinking changes materially.
+
+## Style
+
+- Plain, concise language. Lead with the conclusion, then the reasoning.
+- Link related docs with relative links.
+- Keep assumptions and open questions in their own sections.
+- Remember `client-agnostic.mdc`: no real client details.

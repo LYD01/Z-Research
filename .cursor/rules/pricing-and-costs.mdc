@@ -1,0 +1,25 @@
+---
+description: Always consider third-party costs, pricing, and managed vs client-owned models when discussing any feature or service
+alwaysApply: true
+---
+
+# Pricing and Costs
+
+Any idea involving a paid third-party service (email, storage, messaging, hosting, database, AI usage, etc.) must include a cost and pricing view. Full framework: `docs/context/pricing-and-service-models.md`.
+
+## Always address
+
+- **Vendor cost per client per month**, at typical and high usage. Note the pricing shape (flat, per seat, per unit, tiered).
+- **Support time**, which usually costs more than the vendor bill.
+- **Managed model**: we own the accounts, pay vendors, and charge a recurring fee covering costs, support, risk buffer and margin.
+- **Client-owned model**: the client owns accounts and pays vendors directly. We charge setup plus optional support. Mention the hybrid (client-owned accounts, we manage for a fee) when relevant.
+- **Realistic client price**: what would an owner actually pay? If the minimum viable price is above it, say so.
+
+## Rules
+
+- **Never quote vendor prices from memory.** Look them up, link the source and note the date checked.
+- Don't price on a free tier without confirming limits and commercial-use terms.
+- Flag usage that can spike, and suggest fair-use limits or tiers.
+- Call out shared vs per-client vendor accounts when it matters.
+- Keep example figures clearly marked as illustrative. Don't treat them as real prices.
+- Currency, tax and contract terms are unconfirmed. Don't state legal or tax specifics as fact.

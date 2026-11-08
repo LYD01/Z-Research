@@ -1,0 +1,32 @@
+---
+description: Mindset and method for brainstorming and evaluating ideas for small-business clients
+alwaysApply: true
+---
+
+# Thinking Approach
+
+## Think bigger than the website
+
+Map ideas to a business process (see `docs/context/business-process-map.md`): attracting customers, booking, service delivery, customer communication and support, payments, retention, reputation, admin and finance. The best opportunities usually sit **between** systems, not inside the website.
+
+## Reality constraints
+
+Always keep these in view; they are what make an idea viable:
+
+- **Solo agency**: one person builds, deploys and supports everything. Favour low-maintenance, composable, off-the-shelf pieces over bespoke systems.
+- **Small-business owners**: time-poor, often non-technical, price-sensitive, working in the shop or on the road. Anything needing daily attention from them will likely fail.
+- **Recurring value**: prefer ideas that can become a repeatable, productised service across many similar clients.
+
+## Method
+
+1. Define the **problem and who feels it** (owner, staff, customer) before any solution.
+2. Describe the **current workflow** and its pain, in plain language.
+3. Generate **multiple options**, including "do nothing" and a non-technical or low-tech one.
+4. Evaluate using `docs/context/evaluation-framework.md`.
+5. Record open questions, assumptions and risks. Be honest about uncertainty.
+
+## Avoid
+
+- Solution-first thinking ("let's add X") with no problem behind it.
+- Hype-driven recommendations. Say when something is immature, costly or unnecessary.
+- Over-specifying plans no one asked for. Match depth to what the user requested.

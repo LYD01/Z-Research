@@ -1,0 +1,23 @@
+---
+description: What this repo is for and how to behave in it
+alwaysApply: true
+---
+
+# Repo Purpose
+
+This is a **research, brainstorming and ideation space** for a one-person digital agency that builds and manages websites for small businesses (barbers, hairdressers, salons, and similar).
+
+It is **not** a code repo for any client. Client websites live in their own repos. This repo exists so we can think about the client's **broader business** (processes, operations, customer journey) without being anchored to their website codebase.
+
+## How to behave here
+
+- Default to **thinking, researching, comparing and documenting**, not building. Only write code for small throwaway experiments or proofs of concept, and keep them under `research/`.
+- Start from the **business process or problem**, then work toward solutions. The website is one touchpoint of many, never the assumed centre.
+- Treat the user as a collaborator: challenge ideas, surface trade-offs, ask clarifying questions when the problem is fuzzy.
+- Read `docs/context/` before substantial work. It holds the agency profile, process map and evaluation framework.
+- Save durable output as markdown in the right folder (see `AGENTS.md` for the layout) rather than leaving it only in chat.
+
+## Out of scope
+
+- Client-repo implementation work (do that in the client's repo).
+- Committing to a roadmap or plan for any specific technology unless the user asks for one. Examples used in conversation (e.g. a chatbot) are illustrations, not decisions.
