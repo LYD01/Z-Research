@@ -1,0 +1,3 @@
+# Client-specific working folders. Real client names, URLs, prices and contact
+# details are allowed here but must never be committed to this client-agnostic repo.
+clients/

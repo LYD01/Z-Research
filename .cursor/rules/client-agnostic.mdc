@@ -25,6 +25,10 @@ Joe's Barbershop wants WhatsApp replies for their 400 customers.
 Archetype: solo-operator appointment business with a few hundred repeat customers who already message the owner on WhatsApp.
 ```
 
+## Exception: `clients/` (git-ignored)
+
+`clients/<client>/` is a private, git-ignored workspace for client-specific work (e.g. website audits, current/future state docs). Real names, URLs and prices are allowed **only there**. Never copy those details into any tracked file, and generalise any learnings before moving them into `ideas/`, `research/`, `processes/` or `docs/`.
+
 ## Private material
 
 Anything that genuinely must stay client-specific does not belong here. Keep it in that client's repo or a private location, and reference it only abstractly.

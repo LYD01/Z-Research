@@ -23,7 +23,9 @@ ideas/          One file per idea, any stage
 research/       Findings on tools, vendors, tech, markets, regulation (+ small experiments)
 processes/      Deep dives on a business process for a business archetype
 templates/      Copy these to start a new idea / research note / process deep dive
+clients/        PRIVATE, git-ignored. Client-specific work (real details allowed here only)
 .cursor/rules/  Always-on and contextual rules for the AI
+.cursor/skills/ Reusable AI skills (e.g. ecom-design-for-local-service-sites, for future-state design sections)
 ```
 
 ## Working agreements
